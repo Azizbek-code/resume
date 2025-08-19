@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azizbek Uzgenboev — Software Engineer (Backend/NestJS)</title>
+  <style>
+    :root{
+      --bg:#0b0f1a;--card:#0f1424;--muted:#9aa4b2;--text:#e6ebf3;--accent:#61dafb;--chip:#1b2236;--link:#8fd3ff;--ok:#7ee787;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1000px;margin:40px auto;padding:0 20px}
+    .header{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
+    .title{font-size:32px;line-height:1.2;margin:0}
+    .subtitle{margin:6px 0 0 0;color:var(--muted)}
+    .contact{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+    .contact a,.contact span{background:var(--chip);border:1px solid #1f2a44;padding:6px 10px;border-radius:12px;color:var(--text);font-size:14px}
+
+    .section{margin-top:28px;}
+    .card{background:var(--card);border:1px solid #1f2a44;border-radius:16px;padding:18px}
+    .section h2{margin:0 0 12px 0;font-size:18px;letter-spacing:.3px;color:#cfe3ff}
+
+    .grid{display:grid;gap:14px}
+    @media (min-width:800px){
+      .grid-2{grid-template-columns:1fr 1fr}
+      .grid-3{grid-template-columns:repeat(3,1fr)}
+    }
+
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:var(--chip);border:1px solid #1f2a44;color:#dbe7ff;padding:6px 10px;border-radius:999px;font-size:13px;white-space:nowrap}
+
+    .item{display:flex;gap:12px}
+    .item .dot{width:8px;height:8px;background:var(--accent);opacity:.8;border-radius:999px;margin-top:8px}
+    .item h3{margin:0 0 4px 0;font-size:16px}
+    .item .meta{font-size:13px;color:var(--muted)}
+
+    ul.clean{margin:8px 0 0 18px;padding:0}
+    ul.clean li{margin:6px 0}
+
+    .footer{margin:32px 0;color:var(--muted);font-size:13px;text-align:center}
+    .btn{display:inline-block;background:transparent;border:1px solid #2a375f;color:#cfe3ff;padding:8px 12px;border-radius:10px}
+    .btn:hover{background:#121a2e}
+    .split{display:grid;gap:14px}
+    @media (min-width:900px){.split{grid-template-columns:2fr 1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1 class="title">Azizbek Uzgenboev</h1>
+        <p class="subtitle">Software Engineer — Backend (NestJS, PostgreSQL) • DevOps-aware</p>
+        <div class="contact">
+          <span>📍 Uzbekistan</span>
+          <a href="mailto:elemahunovbahrombek@gmail.com">✉️ elemahunovbahrombek@gmail.com</a>
+          <a href="https://github.com/your-github" target="_blank" rel="noreferrer">🐙 github.com/your-github</a>
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">in LinkedIn</a>
+          <a class="btn" href="#">Download as PDF (Ctrl/Cmd+P)</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section split">
+      <div class="grid">
+        <div class="card">
+          <h2>Professional Summary</h2>
+          <p>
+            Backend-focused software engineer with strong foundations in HTML/CSS/JS and deep experience in
+            <strong>NestJS</strong>, <strong>PostgreSQL</strong>, <strong>Prisma</strong>, <strong>Redis</strong>, and <strong>AWS (EC2, S3)</strong>.
+            Comfortable building production-ready REST APIs, integrating Docker, Nginx, and setting up CI/CD with GitHub Actions.
+            Passionate about clean architecture, robust testing, and developer experience.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Core Skills</h2>
+          <div class="chips">
+            <span class="chip">HTML5 / Accessible HTML</span>
+            <span class="chip">CSS3, Tailwind</span>
+            <span class="chip">JavaScript (ES6+)</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">React (basics)</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">NestJS</span>
+            <span class="chip">Express</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">MongoDB</span>
+            <span class="chip">Prisma ORM</span>
+            <span class="chip">Redis</span>
+            <span class="chip">AWS EC2 / S3</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Nginx</span>
+            <span class="chip">Git & GitHub</span>
+            <span class="chip">GitHub Actions (CI/CD)</span>
+            <span class="chip">REST API Design</span>
+            <span class="chip">Authentication / RBAC</span>
+            <span class="chip">WebSockets (Socket.io)</span>
+            <span class="chip">Testing & Postman</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Highlights</h2>
+          <ul class="clean">
+            <li>Designed and shipped multiple production-grade backends with role-based access control and clean domain layers.</li>
+            <li>Implemented object storage (S3), reverse proxy (Nginx), Dockerized services, and GitHub Actions deployments to EC2.</li>
+            <li>Built real-time chat and notification features using WebSockets and Redis pub/sub.</li>
+          </ul>
+        </div>
+      </div>
+
+      <aside class="grid">
+        <div class="card">
+          <h2>Contact / Links</h2>
+          <ul class="clean">
+            <li>Email: <a href="mailto:elemahunovbahrombek@gmail.com">elemahunovbahrombek@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/your-github" target="_blank" rel="noreferrer">github.com/your-github</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">linkedin.com/in/your-linkedin</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>Tech Stack Snapshot</h2>
+          <div class="chips">
+            <span class="chip">NestJS</span><span class="chip">Node.js</span><span class="chip">TypeScript</span>
+            <span class="chip">PostgreSQL</span><span class="chip">Prisma</span><span class="chip">Redis</span>
+            <span class="chip">MongoDB</span><span class="chip">AWS S3/EC2</span><span class="chip">Docker</span>
+            <span class="chip">Nginx</span><span class="chip">GitHub Actions</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h2>Selected Projects</h2>
+
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>YouTube Clone — Backend (NestJS, PostgreSQL, S3, Redis, FFmpeg, Bull, Docker)</h3>
+            <div class="meta">2025 — Personal Project</div>
+            <ul class="clean">
+              <li>Implemented authentication, channel management, video upload/processing (FFmpeg), like/dislike, comments, playlists, and analytics.</li>
+              <li>Object storage on S3, CDN-friendly file serving via Nginx; background processing with Bull Queue and Redis.</li>
+              <li>Containerized with Docker; CI/CD with GitHub Actions to EC2, environment secrets via GitHub.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>TaskFlow — Team Task Manager (NestJS, Prisma, RBAC, Docker, CI/CD)</h3>
+            <div class="meta">2025 — Portfolio Project</div>
+            <ul class="clean">
+              <li>Trello-like boards, lists, and cards with roles (admin, member) and granular permissions.</li>
+              <li>REST API with clean modules, guards, interceptors; automated tests and Swagger docs.</li>
+              <li>GitHub Actions pipelines (build, test, docker push) and one-click deploy to EC2.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>Arenda Phone — Rental CRM (NestJS, PostgreSQL, Telegram Bot, Schedulers)</h3>
+            <div class="meta">2025 — Client-like Project</div>
+            <ul class="clean">
+              <li>Manage phone rentals, track expirations, and send automated reminders via Telegram bot.</li>
+              <li>Operator/Admin roles, audit logs, and daily cron jobs for due payments.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>Education Center Management (NestJS, PostgreSQL → MongoDB Models, RBAC)</h3>
+            <div class="meta">2025 — Study Project</div>
+            <ul class="clean">
+              <li>Attendance, payments, teachers, and students modules; SQL-to-Mongoose model conversion.</li>
+              <li>RESTful endpoints with role-based access (superadmin, admin, teacher, student).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>Movie Rental & Debt CRM (NestJS, PostgreSQL, Notifications)</h3>
+            <div class="meta">2025 — Portfolio Project</div>
+            <ul class="clean">
+              <li>Track sold/rented movie products, customer balances, and due-date notifications.</li>
+              <li>Secure auth, customer profiles, and reporting endpoints.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>Telegram WebApp Backend (NestJS, PostgreSQL)</h3>
+            <div class="meta">2025 — Portfolio Project</div>
+            <ul class="clean">
+              <li>Products, cart, and order flow; simple bot integration for order confirmations.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section grid grid-2">
+      <div class="card">
+        <h2>Experience</h2>
+        <div class="item">
+          <div class="dot"></div>
+          <div>
+            <h3>Freelance / Independent — Backend Developer</h3>
+            <div class="meta">2024 — 2025 • Remote</div>
+            <ul class="clean">
+              <li>Delivered REST APIs with authentication, validation, and documentation (Swagger).</li>
+              <li>Designed relational schemas with PostgreSQL and Prisma; optimized queries and indexes.</li>
+              <li>Deployed production stacks on EC2 with Docker and Nginx reverse proxy.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Education & Certificates</h2>
+        <ul class="clean">
+          <li><strong>Self-taught / Courses:</strong> Backend with Node.js & NestJS, SQL with PostgreSQL, AWS Essentials.</li>
+          <li>Continuous practice through real projects and open-source contributions.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section grid grid-3">
+      <div class="card">
+        <h2>DevOps & CI/CD</h2>
+        <ul class="clean">
+          <li>Dockerized multi-service apps (API, DB, Nginx, workers).</li>
+          <li>GitHub Actions: build, test, docker push, deploy to EC2.</li>
+          <li>Nginx reverse proxy, SSL (mkcert/Let’s Encrypt), blue/green-ready.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Databases</h2>
+        <ul class="clean">
+          <li>PostgreSQL (schema design, constraints, indexes, transactions).</li>
+          <li>MongoDB (Mongoose modeling where document-first fits).</li>
+          <li>Redis (caching, queues, pub/sub).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Frontend (HTML/CSS/JS)</h2>
+        <ul class="clean">
+          <li>Semantic, accessible HTML and responsive layouts.</li>
+          <li>Modern CSS (Flex/Grid), utility-first (Tailwind) when needed.</li>
+          <li>React basics for admin panels and dashboards.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h2>Open to</h2>
+        <div class="chips">
+          <span class="chip">Backend Engineer (NestJS/Node)</span>
+          <span class="chip">Platform/Infra-minded Backend</span>
+          <span class="chip">DevOps-aware Roles</span>
+          <span class="chip">Freelance / Contract</span>
+        </div>
+      </div>
+    </section>
+
+    <p class="footer">Tip: Update GitHub/LinkedIn links above • Print or save as PDF via your browser • Last updated: Aug 19, 2025</p>
+  </div>
+</body>
+</html>
